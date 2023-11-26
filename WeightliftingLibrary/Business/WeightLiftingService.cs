@@ -49,7 +49,7 @@ namespace WeightLiftingLibrary.Business
                 _logger.Error(ex.Message);
             }
 
-            return response;
+            return response.OrderByDescending(x => x.TotalPeso);
         }
         public async Task<AthleteAttemptResponseDTO> GetNumberAttemptsById(int athleteID)
         {
