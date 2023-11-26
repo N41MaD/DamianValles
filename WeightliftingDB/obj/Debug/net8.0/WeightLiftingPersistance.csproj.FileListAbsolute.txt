@@ -1,0 +1,14 @@
+C:\Source\DamianValles\WeightliftingDB\bin\Debug\net8.0\WeightLiftingPersistance.deps.json
+C:\Source\DamianValles\WeightliftingDB\bin\Debug\net8.0\WeightLiftingPersistance.runtimeconfig.json
+C:\Source\DamianValles\WeightliftingDB\bin\Debug\net8.0\WeightLiftingPersistance.dll
+C:\Source\DamianValles\WeightliftingDB\bin\Debug\net8.0\WeightLiftingPersistance.pdb
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.csproj.AssemblyReference.cache
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.AssemblyInfoInputs.cache
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.AssemblyInfo.cs
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.csproj.CoreCompileInputs.cache
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.dll
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\refint\WeightLiftingPersistance.dll
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.pdb
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\WeightLiftingPersistance.genruntimeconfig.cache
+C:\Source\DamianValles\WeightliftingDB\obj\Debug\net8.0\ref\WeightLiftingPersistance.dll

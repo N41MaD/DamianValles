@@ -1,0 +1,5 @@
+﻿@WeightLiftingAPI_HostAddress = https://localhost:7177
+
+GET {{WeightLiftingAPI_HostAddress}}/api/weightlifting
+
+###

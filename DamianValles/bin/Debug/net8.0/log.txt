@@ -1,0 +1,1 @@
+2023-11-25 23:54:27,049 [.NET TP Worker] INFO  LoggerService - Probando logs

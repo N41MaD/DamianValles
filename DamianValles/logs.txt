@@ -1,0 +1,87 @@
+2023-11-26 00:46:41,018 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:46:42,075 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById finished
+2023-11-26 00:46:55,333 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:46:55,353 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById finished
+2023-11-26 00:46:59,066 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:46:59,155 [.NET TP Worker] ERROR LoggerService - No se encontró ningún atleta con el ID 3
+2023-11-26 00:46:59,155 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById finished
+2023-11-26 00:49:10,760 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:49:11,766 [.NET TP Worker] ERROR LoggerService - No se encontró ningún atleta con el ID 54
+2023-11-26 00:49:11,766 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById finished
+2023-11-26 00:49:35,124 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:49:48,992 [.NET TP Worker] ERROR LoggerService - No se encontró ningún atleta con el ID 54
+2023-11-26 00:52:34,502 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:52:39,305 [.NET TP Worker] ERROR LoggerService - No se encontró ningún atleta con el ID 42
+2023-11-26 00:53:20,955 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById started
+2023-11-26 00:53:21,056 [.NET TP Worker] INFO  LoggerService - GetNumberAttemptsById finished
+2023-11-26 00:53:37,692 [.NET TP Worker] INFO  LoggerService - GetTotals started
+2023-11-26 00:53:37,693 [.NET TP Worker] INFO  LoggerService - Getting athletes
+2023-11-26 00:53:37,826 [.NET TP Worker] ERROR LoggerService - Sequence contains no elements.
+2023-11-26 00:53:37,826 [.NET TP Worker] INFO  LoggerService - GetTotals finished
+2023-11-26 00:53:44,250 [.NET TP Worker] INFO  LoggerService - GetTotals started
+2023-11-26 00:53:44,251 [.NET TP Worker] INFO  LoggerService - Getting athletes
+2023-11-26 00:53:44,328 [.NET TP Worker] ERROR LoggerService - Sequence contains no elements.
+2023-11-26 00:53:44,328 [.NET TP Worker] INFO  LoggerService - GetTotals finished
+2023-11-26 00:53:46,913 [.NET TP Worker] INFO  LoggerService - GetTotals started
+2023-11-26 00:53:46,913 [.NET TP Worker] INFO  LoggerService - Getting athletes
+2023-11-26 00:53:46,984 [.NET TP Worker] ERROR LoggerService - Sequence contains no elements.
+2023-11-26 00:53:46,984 [.NET TP Worker] INFO  LoggerService - GetTotals finished
+2023-11-26 00:53:50,229 [.NET TP Worker] INFO  LoggerService - GetTotals started
+2023-11-26 00:53:50,229 [.NET TP Worker] INFO  LoggerService - Getting athletes
+2023-11-26 00:53:50,297 [.NET TP Worker] ERROR LoggerService - Sequence contains no elements.
+2023-11-26 00:53:50,297 [.NET TP Worker] INFO  LoggerService - GetTotals finished
+2023-11-26 00:54:10,154 [.NET TP Worker] INFO  LoggerService - GetTotals started
+2023-11-26 00:54:10,154 [.NET TP Worker] INFO  LoggerService - Getting athletes
+2023-11-26 00:55:17,605 [.NET TP Worker] ERROR LoggerService - Sequence contains no elements.
+2023-11-26 00:55:17,606 [.NET TP Worker] INFO  LoggerService - GetTotals finished
+2023-11-26 01:03:30,538 [.NET TP Worker] INFO  LoggerService - GetTotals started
+2023-11-26 01:03:30,545 [.NET TP Worker] INFO  LoggerService - Getting athletes
+2023-11-26 01:03:53,226 [.NET TP Worker] INFO  LoggerService - GetTotals finished
+2023-11-26 02:44:50,161 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 02:49:38,511 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 02:50:17,256 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta Roberto Sanchez superó la cantidad de intentos permitidos
+2023-11-26 02:50:17,256 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 02:54:08,828 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 02:54:53,511 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 02:56:16,169 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 02:56:40,584 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta string superó la cantidad de intentos permitidos
+2023-11-26 02:56:40,584 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 02:59:27,858 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 02:59:55,819 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta string superó la cantidad de intentos permitidos
+2023-11-26 03:09:38,884 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:10:22,086 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta string superó la cantidad de intentos permitidos
+2023-11-26 03:10:41,512 [.NET TP Worker] WARN  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished with errors
+2023-11-26 03:11:16,980 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:11:17,106 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta 1 superó la cantidad de intentos permitidos
+2023-11-26 03:11:17,106 [.NET TP Worker] WARN  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished with errors
+2023-11-26 03:13:19,355 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:13:20,479 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta 1 superó la cantidad de intentos permitidos
+2023-11-26 03:13:20,479 [.NET TP Worker] WARN  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished with errors
+2023-11-26 03:14:59,079 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:15:12,384 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 03:15:50,188 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:15:52,726 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 03:17:19,994 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:17:24,101 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 03:18:39,065 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:20:36,989 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:20:42,461 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 03:21:00,341 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:21:03,796 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 03:21:24,487 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:21:55,076 [.NET TP Worker] ERROR WeightLifting.Library.Logger.LoggerService - El atleta 3 superó la cantidad de intentos permitidos
+2023-11-26 03:21:55,077 [.NET TP Worker] WARN  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished with errors
+2023-11-26 03:22:39,864 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp started
+2023-11-26 03:23:41,197 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - InsertAthleteAttemp finished
+2023-11-26 10:11:36,088 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals started
+2023-11-26 10:11:36,133 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - Getting athletes
+2023-11-26 10:11:36,503 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals finished
+2023-11-26 10:41:45,094 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals started
+2023-11-26 10:41:45,119 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - Getting athletes
+2023-11-26 10:41:49,748 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals finished
+2023-11-26 18:56:24,885 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals started
+2023-11-26 18:56:24,901 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - Getting athletes
+2023-11-26 18:56:28,302 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals finished
+2023-11-26 18:56:38,824 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals started
+2023-11-26 18:56:38,824 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - Getting athletes
+2023-11-26 18:56:38,902 [.NET TP Worker] INFO  WeightLifting.Library.Logger.LoggerService - GetTotals finished

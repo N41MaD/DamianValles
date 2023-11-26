@@ -1,0 +1,11 @@
+C:\Source\DamianValles\WeightLifting.Models\bin\Debug\net8.0\WeightLifting.Models.deps.json
+C:\Source\DamianValles\WeightLifting.Models\bin\Debug\net8.0\WeightLifting.Models.dll
+C:\Source\DamianValles\WeightLifting.Models\bin\Debug\net8.0\WeightLifting.Models.pdb
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\WeightLifting.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\WeightLifting.Models.AssemblyInfoInputs.cache
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\WeightLifting.Models.AssemblyInfo.cs
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\WeightLifting.Models.csproj.CoreCompileInputs.cache
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\WeightLifting.Models.dll
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\refint\WeightLifting.Models.dll
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\WeightLifting.Models.pdb
+C:\Source\DamianValles\WeightLifting.Models\obj\Debug\net8.0\ref\WeightLifting.Models.dll
