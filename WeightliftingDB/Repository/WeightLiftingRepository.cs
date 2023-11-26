@@ -20,6 +20,7 @@ namespace WeightLiftingPersistance.Repository
 
         public async Task<IEnumerable<Athletes>> GetAthletes() =>  await _context.Athletes.ToListAsync();
         public async Task<Athletes?> GetAthleteByID(int athleteID) => await _context.Athletes.FirstOrDefaultAsync(x => x.AthleteID == athleteID);
+        public async Task<Athletes?> GetAthleteByName(string name) => await _context.Athletes.FirstOrDefaultAsync(x => x.Nombre == name);
 
         public async Task<int> GetHighestStart(int athleteID)
         {
@@ -44,49 +45,59 @@ namespace WeightLiftingPersistance.Repository
             };
         }
 
-        public async Task<bool> ExistAthlete(int athleteID)
+        public async Task<int> ExistAthlete(string name)
         {
-            return await _context.Athletes.AnyAsync(x => x.AthleteID == athleteID);
+            var athlete = await _context.Athletes.FirstOrDefaultAsync(x => x.Nombre.ToLower() == name.ToLower());
+
+            if (athlete is null)
+                return -1;
+
+            return athlete.AthleteID;
         }
 
-        public async Task CreateAthlete(AthleteAttemptRequestDTO request)
+        public async Task<int> CreateAthlete(AthleteAttemptRequestDTO request)
         {
             var athlete = new Athletes
             {
                 Nombre = request.Nombre,
                 Pais = request.Pais,
-
             };
 
             await _context.Athletes.AddAsync(athlete);
 
             await _context.SaveChangesAsync();
+
+            var athleteCreated = await GetAthleteByName(request.Nombre);
+
+            return athleteCreated.AthleteID;
         }
 
-        public async Task InsertStartAttempt(AthleteAttemptRequestDTO request)
+        public async Task InsertStartAttempt(AthleteAttemptRequestDTO request, int id)
         {
-            await InsertAttempt(request, "StartAttempt");
+            await InsertAttempt(request, id, "StartAttempt");
         }
 
-        public async Task InsertPushAttempt(AthleteAttemptRequestDTO request)
+        public async Task InsertPushAttempt(AthleteAttemptRequestDTO request, int id)
         {
-            await InsertAttempt(request, "PushAttempt");
+            await InsertAttempt(request, id, "PushAttempt");
         }
 
-        private async Task InsertAttempt(AthleteAttemptRequestDTO request, string attemptType)
+        private async Task InsertAttempt(AthleteAttemptRequestDTO request, int id, string attemptType)
         {
             try
             {
-                var attempts = await GetNumberAttemptsById(request.AthleteID);
+                var athlete = await GetAthleteByName(request.Nombre);
+
+                var attempts = await GetNumberAttemptsById(id);
 
                 if (attempts[attemptType] > 2)
                 {
-                    throw new InvalidOperationException($"El atleta {request.AthleteID} superó la cantidad de intentos permitidos");
+                    throw new InvalidOperationException($"El atleta {athlete.Nombre} superó la cantidad de intentos permitidos");
                 }
 
                 var attempt = new AttemptDTO
                 {
-                    AthleteID = request.AthleteID,
+                    AthleteID = id,
                     Value = request.Arranque,
                     AttemptNumber = attempts[attemptType] + 1
                 };

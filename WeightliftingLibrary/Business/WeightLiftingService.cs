@@ -73,13 +73,15 @@ namespace WeightLiftingLibrary.Business
             var result = false;
             try
             {
-                if (!await _repository.ExistAthlete(athleteAttempt.AthleteID))
+                var id = await _repository.ExistAthlete(athleteAttempt.Nombre);
+
+                if (id < 0)
                 {
-                    await _repository.CreateAthlete(athleteAttempt);
+                    id = await _repository.CreateAthlete(athleteAttempt);
                 }
 
-                await _repository.InsertStartAttempt(athleteAttempt);
-                await _repository.InsertPushAttempt(athleteAttempt);
+                await _repository.InsertStartAttempt(athleteAttempt, id);
+                await _repository.InsertPushAttempt(athleteAttempt, id);
                 result = true;
             }
             catch (Exception ex)

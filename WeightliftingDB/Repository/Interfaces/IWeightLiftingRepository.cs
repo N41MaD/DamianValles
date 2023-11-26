@@ -10,10 +10,11 @@ namespace WeightLifting.Persistance.Repository.Interfaces
         Task<int> GetHighestStart(int athleteID);
         Task<int> GetHighestPush(int athleteID);
         Task<Dictionary<string, int>> GetNumberAttemptsById(int athleteID);
-        Task InsertStartAttempt(AthleteAttemptRequestDTO request);
-        Task InsertPushAttempt(AthleteAttemptRequestDTO request);
-        Task<bool> ExistAthlete(int athleteID);
-        Task CreateAthlete(AthleteAttemptRequestDTO request);
+        Task InsertStartAttempt(AthleteAttemptRequestDTO request, int id);
+        Task InsertPushAttempt(AthleteAttemptRequestDTO request, int id);
+        Task<int> ExistAthlete(string name);
+        Task<int> CreateAthlete(AthleteAttemptRequestDTO request);
+        Task<Athletes?> GetAthleteByName(string name);
 
     }
 }
